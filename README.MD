@@ -127,8 +127,6 @@ python tools/test.py  --config_file       [FILL]      # Config file (.yaml file)
                 --save_dir          [FILL]      # Path where visualization results will be saved to
 ```
 
-### Submission Format Generation
-Will be added later 😢
 
 ### Video Inference on KITTI Raw Dataset
 The KITTI Raw Dataset can be downloaded by scene from [here](https://www.cvlibs.net/datasets/kitti/raw_data.php?type=city). (You will probably need to log in.)  
@@ -142,8 +140,6 @@ python tools/test_raw.py  --data_dir          [FILL]      # Path where sequence 
                     --save_dir          [FILL]      # Path of the directory to save the result video
 ```
 
-
-
 ## Qualitative Results  
 Visualizations for 2D Boxes, 3D Boxes, and BEV, respectively, from top to bottom for each sample.  
 - **000008.png** (Validation Set)  
@@ -155,12 +151,6 @@ Visualizations for 2D Boxes, 3D Boxes, and BEV, respectively, from top to bottom
 <img src="resources/000134_2d.png">
 <img src="resources/000134_3d.png">  
 <img src="resources/000134_bev.png">  
-
-
-## Known Issues
-- **(2022.12.15)** It has been found that reducing the batch size causes the target data corresponding to that mini-batch to be empty, resulting in errors. 
-If possible, use a value greater than 4 as the batch size.
-
 
 ## Change Log
 This repository was last updated to **v0.03** on **2022.12.14**.  
