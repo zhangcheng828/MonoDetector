@@ -1,0 +1,15 @@
+DESCRIPTION: "Smoke Default Configuration"
+OUTPUT_DIR: "logs/smoke" 
+DETECTOR: "SmokeDetector"
+SOLVER:
+  OPTIM:
+    LR: 2.25E-04
+  SCHEDULER:
+    TARGET_LR_RATIO: (10, 1E-04)
+DATA:
+  BATCH_SIZE: 8
+  FILTER:
+    KPTS: 9
+PERIOD:
+  EVAL_PERIOD: 200
+  LOG_PERIOD: 50

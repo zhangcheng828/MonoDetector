@@ -1,0 +1,7 @@
+DESCRIPTION: "IDMS Default Configuration"
+OUTPUT_DIR: "logs/idms" 
+DETECTOR: "IDMSDetector"
+DATA:
+  BATCH_SIZE: 16
+  FILTER:
+    KPTS: 9

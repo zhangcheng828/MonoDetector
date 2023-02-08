@@ -1,0 +1,8 @@
+numpy
+numba
+opencv-python
+pandas
+PyYAML
+tensorboard
+tqdm
+yacs

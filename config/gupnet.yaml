@@ -1,0 +1,9 @@
+DESCRIPTION: "GUPNet Default Configuration"
+OUTPUT_DIR: "logs/gupnet_1212" 
+DETECTOR: "GUPNetDetector"
+DATA:
+  FILTER:
+    KPTS: 9 
+
+PERIOD:
+  EVAL_PERIOD: 10

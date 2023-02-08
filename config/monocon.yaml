@@ -1,0 +1,6 @@
+DESCRIPTION: "MonoCon Default Configuration"
+OUTPUT_DIR: "logs/monocon_12_17" 
+DETECTOR: "MonoConDetector"
+DATA:
+  FILTER:
+    KPTS: 9 

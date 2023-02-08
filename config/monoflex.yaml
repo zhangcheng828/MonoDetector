@@ -1,0 +1,12 @@
+DESCRIPTION: "MonoFlex Default Configuration"
+OUTPUT_DIR: "logs/monoflex_1215" 
+DETECTOR: "MonoFlexDetector"
+
+DATA:
+  BATCH_SIZE: 16
+  FILTER:
+    MAX_TRUNCATION: 0.5
+    KPTS: 10 
+
+PERIOD:
+  EVAL_PERIOD: 10
