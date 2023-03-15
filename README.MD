@@ -45,7 +45,7 @@ conda create --name [ENV_NAME] python=3.9
 conda activate [ENV_NAME]
 
 # [Step 2]: Clone this repository and change directory.
-git clone https://gitlab.phigent.io/cheng.zhang/monodetector.git
+git clone https://github.com/zhangcheng828/MonoDetector.git
 cd monodetector
 
 # [Step 3]: See https://pytorch.org/get-started/locally/ and install pytorch for your environment.
